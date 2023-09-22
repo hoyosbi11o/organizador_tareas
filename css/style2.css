@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    background-color: rgb(37,38,40);
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav p{
+    padding: 10px 0px;
+}
+.flecha{
+    width: 1rem;
+}
+nav ul li{
+    margin: 10px 10px;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+ main{
+     background: #ffffff;
+     width: 864px;
+     height: 964px;
+     margin: 20px auto;
+     box-shadow:  1px 1px 13px 8px #1c1c1c;
+     border-radius: 10PX;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+
+ }
+ section{
+    width: 700px;
+    height: 760px;
+    border: #000000 double;
+    flex-direction: column;
+ }
+ section h6{
+    border-bottom: #000000 solid 1px;
+    padding: 16px 0;
+
+ }
+ .h66{
+    padding: 0;
+ }
+ .h1{
+    font-size: 67px;
+    background-color: #ffffff;
+    padding: 20px 33px 0px;
+    margin: 0 0 -77px;
+    position: relative;
+ }
+
+.container {
+    max-width: 600px;
+    height: 800px;
+    margin: 0 auto;
+}
+ .perfil h2 {
+    color:#000000 ;
+    letter-spacing: 1px;
+}
+
+.perfil span {
+    color:#000000 ;
+}
+
+#fecha {
+    color: #000000 ;
+    padding-top: 1rem;
+}
+.agregar-tarea {
+    background-color: var(--white);
+    border-radius: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+    margin: 78px 110px  3px;
+}
+
+.agregar-tarea input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--white);
+}
+
+.agregar-tarea i {
+    font-size: 40px;
+    color: var(--purple);
+}
+
+
+.agregar-tarea i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: var(--purple);
+}
+
+.agregar-tarea input::placeholder {
+    font-size: 1.1rem;
+    color: var(--purple);
+}
+
+.seccion-tarea h3 {
+    color: var(--black);
+    margin: 2.5px 0px;
+}
+
+.seccion-tarea li {
+    display: flex;
+    padding: 0px 126px  0px;
+    align-items: center;
+    margin: 5px 0 0;
+    color: var(--black);
+    border-bottom: #000000 solid 1px;
+}
+
+.seccion-tarea i {
+    font-size: 25px;
+}
+
+.seccion-tarea i:hover {
+    color: var(--blue-light);
+    cursor: pointer;
+}
+
+.seccion-tarea > ul p {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.line-through {
+    text-decoration: line-through;
+    color: var(--blue-light);
+}
